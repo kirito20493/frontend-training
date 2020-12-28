@@ -1,0 +1,26 @@
+@media (max-width: 1024px){
+    .header__navbar {
+        display: none;
+    }
+    .logo__navbar {
+        top: 0%;
+        left: 5%;
+        width: 90%;
+        border-radius: 0;
+    }
+    .logo__navbar-logo-text {
+        margin: 0;
+    }
+    .logo__navbar {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}
+@media (min-width:740px) and (max-width: 1023px){
+    .product1-list {
+        flex-wrap: wrap;
+    }
+    .product1-list-item {
+        width: 49%;
+    }
+}

@@ -1,0 +1,13 @@
+:root {
+    --text-color: #818181;
+    --icon-color: #d9c07a;
+}
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;  
+    font-family: 'Poppins', sans-serif;  
+}

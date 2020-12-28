@@ -1,0 +1,20 @@
+.header__navbar {
+    width: 70%;
+    margin: 10px 15% 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__navbar-list {
+    display: flex;
+}
+.header__navbar-item {
+    margin-right: 30px;
+    font-size: 1.4rem;
+}
+.header__navbar-icon {
+    color: #d9c07a;
+}
+.header__navbar-link {
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
