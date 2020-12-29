@@ -53,22 +53,21 @@
 .logo__navbar__navbar-connect-link-icon {
     color: white;
     font-size: 1.5rem;
-    margin-right: 10px;
 }
+
 .logo__navbar-connect-item {
-    width: 20px;
-    height: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px; 
     border-radius: 50px;
     background-color: rgba(225,225,225,0.1);
+    margin-right: 5px;
 }
-.logo__navbar-connect-item a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+
 .logo__navbar-connect-list {
     display: flex;
-
 }
 .logo__navbar-search {
     position: relative;
@@ -89,6 +88,8 @@
     height: 30px;
     padding-left: 20px;
     outline: none;
+    background-color: transparent;
+    border: solid 1px var(--text-color);
 }
 .logo__navbar-search-btn2 {
     position: absolute;
