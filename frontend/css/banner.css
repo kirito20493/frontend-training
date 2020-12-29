@@ -2,9 +2,11 @@
     position: relative;
     background: url(../img/banner1.png);
     background-size: cover;
+    height: 450px;
 }
 .banner__inner-content {
-    padding: 165px 0 80px 235px;
+    /* padding: 165px 0 80px 235px; */
+    padding: 13% 0 2% 22%;
 }
 .banner__inner-content-tittle {
     color: white;
@@ -12,12 +14,12 @@
     font-weight: bold;
 }
 .banner__inner-content-text {
-    margin-top: 30px;
+    margin-top: 15px;
     color: var(--icon-color);
     font-size: 1.4rem;
 }
 .banner__inner-bnt {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 170px;
     height: 40px;
     border-radius: 25px;
@@ -52,7 +54,7 @@
 }
 .logo__navbar__navbar-connect-link-icon {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .logo__navbar-connect-item {
@@ -84,7 +86,7 @@
 }
 .logo__navbar-search-input {
     margin-left: 90px;
-    width: 250px;
+    width: 230px;
     height: 30px;
     padding-left: 20px;
     outline: none;
@@ -111,4 +113,10 @@
     background-color: transparent;
     color: var(--icon-color);
     outline: none;
+}
+
+.logo__navbar-login-mb i{
+    font-size: 3rem;
+    color: var(--icon-color);
+    margin: 0 20px;
 }

@@ -48,7 +48,7 @@
 }
 .product2-icon {
     font-size: 5rem;
-    color: rgb(212, 209, 209);
+    color: #f2f2f2;
 }
 .product2-title {
     font-size: 2.2rem;
@@ -175,7 +175,6 @@
 .product3-list-item {
     position: relative;
     width: 24%;
-    height: 180px;
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 15px;
@@ -220,18 +219,20 @@
     background-color: #f7fafb;
 }
 .product3-subsribe-icon {
+    z-index: 1;
     text-align: center;
     font-size: 5rem;
     color: var(--icon-color);
 }
 .product3-subsribe-title {
+    z-index: 1;
     text-align: center;
 }
-.product3-subsribe-title h1 {
+.product3-subsribe-title h5 {
+    z-index: 1;
     font-size: 2.5rem;
 }
 .product3-subsribe-title p {
-    padding: 0 40%;
     color: var(--text-color);
     font-size: 1.2rem;
 }
@@ -268,4 +269,7 @@
     bottom: 0%;
     right: 9%;
 
+}
+.product3-list-title-mb {
+    display: none;
 }
