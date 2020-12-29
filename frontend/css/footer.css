@@ -16,6 +16,10 @@
 .footer-top-infor-title {
     font-size: 3rem;
     color: white;
+    font-weight: bold;
+}
+.footer-top-infor-title span {
+    font-weight: 300;
 }
 .footer-top-infor-text {
     font-size: 1.2rem;
@@ -200,8 +204,16 @@
 }
 /* footer -design */
 .footer-design {
-    border-top: solid 1px gray;
-    border-width: 80%;
+    position: relative;
+}
+.footer-design::after {
+    content: "";
+    width: 70%;
+    position: absolute;
+    border-bottom: solid #e3e3e3;
+    border-width: thin;
+    top: -90%;
+    left: 15%;
 }
 .footer-design-inner {
     display: flex;
