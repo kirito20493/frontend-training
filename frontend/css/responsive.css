@@ -39,13 +39,16 @@
     .hide-on-pc {
         display: block;
     }
+    .mb-navbar {
+        width: 50%;
+    }
     .header__navbar {
         display: none;
     }
     .logo__navbar {
         top: 0%;
-        left: 5%;
-        width: 90%;
+        left: 0%;
+        width: 100%;
         border-radius: 0;
     }
     .logo__navbar-logo-text {
