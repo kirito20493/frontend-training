@@ -14,9 +14,10 @@
     background-color: #1c2f4d;
 }
 .product4-list-item1-title h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: white;
-    padding: 20px 60px;
+    padding: 30px 60px;
+    font-weight: bold;
 }
 .product4-list-item1-infor i {
     color: var(--icon-color);
@@ -25,7 +26,7 @@
     padding-bottom: 10px;
 }
 .product4-list-item1-infor p {
-    color: var(--text-color);
+    color: rgb(223, 222, 222);
     font-size: 1.2rem;
     padding: 0 150px 0 60px;
 }
@@ -56,8 +57,8 @@
     justify-content: space-between;
 }
 .product4-list-item1-btn1 {
-    width: 150px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
     color: var(--icon-color);
     border-radius: 50px;
     border: 1px solid #656a72;
@@ -68,7 +69,7 @@
     margin-right: 10px;
 }
 .product4-list-item1-btn2 {
-    color: var(--text-color);
+    color: rgb(223, 222, 222);
     border: 0;
     background-color: transparent;
     outline: none;
@@ -91,22 +92,25 @@
     margin-bottom: 20px;
 }
 .product4-list-item2-list-items-icon {
+    width: 104px;
     font-size: 5rem;
     color: var(--icon-color);
-    margin-right: 20px;
 }
 .product4-list-item2-list-items-detail h1{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 .product4-list-item2-list-items-detail p {
     font-size: 1.2rem;
-    color: var(--text-color);
+    color: rgb(206, 205, 205);
+    font-weight: 300;
 }
 /* product 5 */
 .product5 {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 40px;
     background-color: #f9f9f9;
 }
 .product5-header {
@@ -115,15 +119,18 @@
     align-items: center;
 }
 .product5-header-icon {
-    font-size: 7rem;
+    font-size: 6rem;
     color: #f2f2f2;
 }
-.product5-header-title {
-    font-size: 2.5rem;
+.product5-header-title h1{
+    font-size: 3rem;
+    font-weight: bold;
 }
-.product5-header-text {
+.product5-header-text p{
     font-size: 1.2rem;
     color: var(--text-color);
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .product5-navbar-list {
@@ -138,18 +145,18 @@
 .product5-navbar-items {
     margin: 17px 20px;
 }
-.product5-navbar-items-link:hover {
-    color: var(--icon-color);
-    border-bottom: solid 2px var(--icon-color);
-}
-
 .product5-navbar-items-link {
     color: #2e2e2e;
     padding-bottom: 18px;
     font-size: 1.2rem;
 }
 .product5-navbar-items-link i {
+    color: #ebecef;
     margin-right: 5px;
+}
+.product5-navbar-items-link:hover {
+    color: var(--icon-color);
+    border-bottom: solid 2px var(--icon-color);
 }
 .product5-list {
     margin-top: 30px;
@@ -160,11 +167,13 @@
 .product5-footer {
     display: flex;
     justify-content: center;
+    padding: 25px 0;
 }
 .product5-footer-btn {
     width: 150px;
-    height: 30px;
-    font-size: 1.2rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
     color: white;
     background-color: #1c2f4d;
     border-radius: 50px;

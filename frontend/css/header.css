@@ -1,7 +1,7 @@
 .header__navbar {
-    width: 70%;
-    height: 60px;
-    margin: 10px 15% 0;
+    width: 67%;
+    height: 50px;
+    margin: 10px 18%;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -9,9 +9,15 @@
 .header__navbar-list {
     display: flex;
 }
+.header__navbar-item1 {
+    margin-right: 30px;
+}
+.header__navbar-item1 a {
+    color: var(--text-color);
+    font-weight: 300;
+}
 .header__navbar-item {
     margin-right: 30px;
-    font-size: 1.4rem;
 }
 .header__navbar-link:hover {
     color: var(--icon-color);
@@ -20,8 +26,8 @@
     color: #d9c07a;
 }
 .header__navbar-link {
-    color: var(--text-color);
-    font-size: 1.2rem;
+    color: black;
+    font-size: 1rem;
 }
 /* mb-navbar */
 .mb-navbar {

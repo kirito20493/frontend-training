@@ -5,6 +5,12 @@
     margin: 0 auto;
 }
 /* product1 */
+.container1 {
+    position: relative;
+    width: 100%;
+    max-width: 805px;
+    margin: 0 auto;
+}
 .product1-list {
     display: flex;
     width: 100%;
@@ -12,7 +18,7 @@
     justify-content: space-between;
 }
 .product1-list-item {
-    width: 24%;
+    width: 23%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,8 +57,8 @@
     color: #f2f2f2;
 }
 .product2-title {
-    font-size: 2.2rem;
-    font-weight: 300px;
+    font-size: 3rem;
+    font-weight: 800;
 }
 .product2-text {
     color: var(--text-color);
@@ -68,7 +74,7 @@
     width: 32%;
     border-radius: 2px;
     background-color: white;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .product2-list-item-img img {
     width: 100%;
@@ -91,13 +97,19 @@
 }
 .product2-list-item-detail-rating i{
     color: var(--icon-color);
+    font-size: 0.3rem;
 }
 .product2-list-item-detail-title {
     font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 10px 0;
 }
 .product2-list-item-detail-text {
     font-size: 1rem;
     color: var(--text-color);
+}
+.product2-list-item-detail-text p {
+    font-weight: 300;
 }
 .product2-list-item-action {
     display: flex;
@@ -128,14 +140,24 @@
 .product2-list-item-action-time p {
     color: var(--text-color);
 }
+.product2-list-item-action-like {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #e3e3e3;
+    border-radius: 2px;
+}
 .product2-list-item-action-like i {
     color: gray;
+    font-size: 8px;
 }
 .product2-list-item-detail-price {
     position: absolute;
-    width: 50px;
+    width: 60px;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: var(--icon-color);
     top: -16%;
     right: 8%;
@@ -147,18 +169,19 @@
 .product2-list-item-detail-price p {
     color: white;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    font-weight: 800;
 }
 /* product3 */
 .product3 {
     width: 100%;
-    margin: 0 auto;
+    padding-top: 75px;
+    background-color: #f7fafb;
 }
 .product3-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 75px;
 }
 .product3-list-title {
     width: 49%;
@@ -167,10 +190,14 @@
 .product3-list-title h1 {
     font-size: 3rem;
     font-weight: bold;
+    line-height: 3.4rem;
+    margin-bottom: 13px;
+
 }
 .product3-list-title p {
     color: var(--text-color);
     font-size: 1.2rem;
+    font-weight: 300;
 }
 .product3-list-item {
     position: relative;
@@ -212,11 +239,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 45px;
     padding-bottom: 80px;
     width: 100%;
     position: relative;
-    background-color: #f7fafb;
 }
 .product3-subsribe-icon {
     z-index: 1;
@@ -231,10 +257,14 @@
 .product3-subsribe-title h5 {
     z-index: 1;
     font-size: 2.5rem;
+    font-weight: 300;
 }
 .product3-subsribe-title p {
     color: var(--text-color);
     font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 .product3-subsribe-input {
     z-index: 1;
@@ -251,6 +281,9 @@
     border-radius: 50px;
     border: 0;
     box-shadow: 0 1px 20px rgba(0,0,0,0.2);
+}
+.product3-subsribe-input input::placeholder {
+    color: rgb(199, 195, 195);
 }
 .product3-subsribe-input-btn {
     position: absolute;

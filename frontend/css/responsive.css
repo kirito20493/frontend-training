@@ -136,6 +136,9 @@
     .product1-list-item {
         width: 49%;
     }
+    .product3 {
+        padding: 15px;
+    }
     .product3-subsribe-img {
         right: -5%;
     }
@@ -143,8 +146,9 @@
         display: none;
     }
     .product3-list-title-mb {
-        width: 100%;
-        padding: 0 20px;
+        width: 70%;
+        padding: 30px 20px;
+        margin: 0 auto;
     }
     .product3-list-title-mb h1 {
         font-size: 2rem;
@@ -192,5 +196,8 @@
     }
     .product3-subsribe-img {
         right: 0%;
+    }
+    .footer-bot {
+        padding-left: 35px;
     }
 }

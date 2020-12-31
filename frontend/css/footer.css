@@ -7,28 +7,31 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    padding-bottom: 180px;
+    padding-bottom: 240px;
 }
 .footer-top-infor {
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
 }
 .footer-top-infor-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 .footer-top-infor-title span {
     font-weight: 300;
 }
-.footer-top-infor-text {
-    font-size: 1.2rem;
-    color: var(--text-color);
+.footer-top-infor-text p{
+    font-size: 1.6rem;
+    color: rgb(196, 193, 193);
+    font-weight: 300;
 }
 .footer-top-infor-btn button{
     width: 200px;
     height: 40px;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
     color: white;
     border-radius: 50px;
     border: 1px solid white;
@@ -39,7 +42,8 @@
 /* footer bot */
 .footer-bot {
     width: 100%;
-    padding: 50px;
+    padding-top: 15px;
+    padding-bottom: 60px;
 }
 .footer-bot-inner {
     display: flex;
@@ -51,17 +55,21 @@
 
 .footer-bot-inner-links-title h5 {
     font-size: 1.4rem;
-    font-weight: bold;
+    font-weight: 900;
     margin-top: 50px;
     margin-bottom: 25px;
 }
 .footer-bot-inner-links {
     width: 20%;
 }
-.footer-bot-inner-links-items a{
+.footer-bot-inner-links-items a {
     display: flex;
     align-items: center;
     color: var(--text-color);
+    margin-bottom: 8px;
+}
+.footer-bot-inner-links-items a p {
+    font-weight: 300;
 }
 .footer-bot-inner-links-items a :hover {
     color: var(--icon-color);
@@ -83,13 +91,14 @@
 .footer-bot-inner-categories-inner2 {
     width: 50%;
 }
-.footer-bot-inner-infor-title {
+.footer-bot-inner-infor-title h1{
     font-size: 1.8rem;
     font-weight: bold;
     margin: 40px 0 30px 0;
 }
-.footer-bot-inner-infor-text {
+.footer-bot-inner-infor-text p{
     font-size: 1rem;
+    font-weight: 300;
     color: var(--text-color);
 }
 
@@ -109,6 +118,7 @@
 }
 .footer-bot-inner-infor-communication-phone p {
     color: var(--text-color);
+    font-weight: 300;
 }
 .footer-bot-inner-infor-communication-fax {
     display: flex;
@@ -120,6 +130,7 @@
 }
 .footer-bot-inner-infor-communication-fax p {
     color: var(--text-color);
+    font-weight: 300;
 }
 .footer-bot-inner-infor-communication-address {
     color: var(--icon-color);
@@ -136,7 +147,10 @@
     color: var(--text-color);
     transition: right linear 0.5s;
 }
-
+.footer-bot-inner-categories-inner1-items a p {
+    font-weight: 300;
+    margin-bottom: 8px;
+}
 .footer-bot-inner-categories-inner1-items a:hover{
     color: var(--icon-color);
     right: -10px;
@@ -146,18 +160,25 @@
     color: var(--text-color);
     transition: right linear 0.5s;
 }
+.footer-bot-inner-categories-inner2-item a p {
+    font-weight: 300;
+    margin-bottom: 8px;
+}
 .footer-bot-inner-categories-inner2-item :hover {
     color: var(--icon-color);
     right: -10px;
 }
 /* footer mid */
+.footer-mid {
+    position: relative;
+}
 .footer-mid-list{
     display: flex;
     justify-content: space-around;
-    padding: 35px 0 30px 0;
+    padding: 30px 0 35px 0;
     background-color: var(--icon-color);
     position: absolute;
-    top: -119px;
+    top: -170px;
     width: 100%;
 }
 .footer-mid-list-item{
@@ -180,12 +201,13 @@
     width: 50%;
 }
 .footer-mid-list-item:first-child {
-    border-right: dashed 1px rgba(228,230,233,0.2);
+    border-right: dashed 1px rgba(228,230,233,0.4);
 }
 .footer-mid-list-item-title {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: white;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .footer-mid-list-item-sub {
     font-size: 1rem;
@@ -197,7 +219,8 @@
     height: 42px;
     background-color: #1c2f4d;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    font-weight: bold;
     border-radius: 50px;
     border: none;
     outline: none;
@@ -205,6 +228,7 @@
 /* footer -design */
 .footer-design {
     position: relative;
+    /* padding-bottom: 50px; */
 }
 .footer-design::after {
     content: "";
@@ -218,7 +242,8 @@
 .footer-design-inner {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .footer-design-infor {
     display: flex;
@@ -237,6 +262,7 @@
 .footer-design-link-item {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 20px;
     height: 20px;
     border: solid 1px #e3e3e3;
@@ -245,6 +271,6 @@
 }
 .footer-design-link-item a {
     color: var(--icon-color);
-    font-size: 1.2rem;
+    font-size: 8px;
     margin: 0 1px;
 }
